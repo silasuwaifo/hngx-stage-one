@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: white;
+  }
+  .container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper {
+    background-color: #273345;
+    width: 20%;
+    height: 320px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+  }
+  .profile-img-wrapper {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #786d89;
+    margin-bottom: 10px;
+  }
+  #profile-image {
+    width: 80px;
+    height: 80px;
+  }
+  #profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .live-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: rgb(103, 103, 103);
+    border: 0;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    font-weight: 600 !important;
+  }
+  button:hover {
+    padding: 12px 30px;
+    transition: all .3s ease-in-out;
+  }
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  #slack_username {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #my-track {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .current-data {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 1024px) {
+  
+    .wrapper {
+      background-color: #0d1520;
+      width:25%;
+      height: 320px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+  
+    .wrapper {
+      width:90%;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: #273345;
+      border-radius: 5px;
+    }
+    .profile-img-wrapper {
+      width: 80px;
+      height: 80px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 3px solid #786d89;
+    }
+    #profile-image {
+      width: 70px;
+      height: 70px;
+    }
+  
+  }
+  @media only screen and (max-width: 375px) {
+  
+    .wrapper {
+        background-color: #273345;
+        border-radius: 5px;
+      width:90%;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-img-wrapper {
+      width: 80px;
+      height: 80px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 3px solid #786d89;
+    }
+    #profile-image {
+      width: 70px;
+      height: 70px;
+    }
+  button {
+    margin-top: 20px;
+    padding: 12px 15px;
+    background-color: black;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(103, 103, 103);
+    font-weight: 600 !important;
+  }
+  .live-data{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   }
+  }
+  @media only screen and (max-width: 320px) {
+  
+    .wrapper {
+      background-color: #0d1520;
+      width:95%;
+      height: 320px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-img-wrapper {
+      width: 70px;
+      height: 70px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      border: 3px solid #786d89;
+    }
+    #profile-image {
+      width: 60px;
+      height: 60px;
+    }
+  button {
+      margin-top: 20px;
+    padding: 10px 12px;
+    background-color: black;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(
+      to right,
+      #2b5876 0%,
+      #4e4376 51%,
+      #2b5876 100%
+    );
+  }
+  .live-data{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   }
+  }

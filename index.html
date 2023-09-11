@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Data</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="wrapper">
+          <div class="profile">
+            <!-- Slack Name -->
+            <p data-testid="slackUserName" id="slack_username">Silas Uwaifo</p>
+            <!-- Slack Display Picture -->
+            <div class="profile-img-wrapper">
+              <div id="profile-image">
+                <img
+                  src="static/_DSC8817.jpg"
+                  alt="odionuwaifo"
+                  data-testid="slackDisplayImage"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="live-data">
+            <!-- Current Day of the Week -->
+            <div class="current-day">
+              <p data-testid="currentDayOfTheWeek" class="current-data">
+                Loading...
+              </p>
+            </div>
+            <div class="current-time">
+              <!-- Current UTC Time -->
+              <p data-testid="currentUTCTime" class="current-data">
+                Loading...
+              </p>
+            </div>
+            <!-- Track -->
+            <p data-testid="myTrack" id="my-track">Frontend Track</p>
+          </div>
+          <button>
+            <a
+              href="https://github.com/pauluwaifo/hngx-stage-one"
+              target="_blank"
+              data-testid="githubURL"
+            >
+              Github Repo</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
